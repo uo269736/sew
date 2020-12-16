@@ -27,7 +27,6 @@ textarea {
 
 /*Especificidad 022*/
 form[name="basedatos"]>input[type=submit]{
-   position: center;
    background-color: #ebb36b;
    border: none;
    color:rgb(0, 0, 0);
@@ -39,7 +38,6 @@ form[name="basedatos"]>input[type=submit]{
 }
 
 input[type=submit]{
-   position: center;
    background-color: #8a87bd;
    border: none;
    color:rgb(0, 0, 0);
