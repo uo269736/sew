@@ -1,0 +1,56 @@
+/* Ejercicio6.css */
+/* Version 1.0. 08/12/2020. Miguel Fernandez Alvarez. Universidad de Oviedo */
+
+/*Especificidad 001*/
+body{
+   background-color:rgb(255, 255, 255);
+   color:black;
+}
+
+/*Especificidad 001*/
+h1,h2,h3,h4{
+   text-align:center;
+   color:black;
+   background-color:rgb(255, 255, 255);
+}
+
+/*Especificidad 001*/
+p{
+   color:black;
+   background-color:rgb(255, 255, 255);
+}
+
+/*Especificidad 001*/
+textarea {
+   resize: none;
+}
+
+/*Especificidad 022*/
+form[name="basedatos"]>input[type=submit]{
+   position: center;
+   background-color: #ebb36b;
+   border: none;
+   color:rgb(0, 0, 0);
+   padding: 1em 2em;
+   font-size: 1em;
+   text-decoration: none;
+   margin: 0.25em 0.125em;
+   cursor: pointer;
+}
+
+input[type=submit]{
+   position: center;
+   background-color: #8a87bd;
+   border: none;
+   color:rgb(0, 0, 0);
+   padding: 1em 2em;
+   font-size: 1em;
+   text-decoration: none;
+   margin: 0.25em 0.125em;
+   cursor: pointer;
+}
+
+/*Especificidad 001*/
+label{
+   display: none;
+}
