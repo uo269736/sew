@@ -1,0 +1,112 @@
+/* CalculadoraRPN.css */
+/* Version 1.0. 04/11/2020. Miguel Fernandez Alvarez. Universidad de Oviedo */
+
+/*Especificidad 001*/
+body{
+   background-color:rgba(29, 27, 27, 0.815);
+   color:black;
+}
+
+/*Especificidad 001*/
+h1{
+   text-align:center;
+   color:black;
+   background-color:#636363;
+}
+
+/*Especificidad 001*/
+h2{
+   text-align:center;
+   color:green;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+h3{
+   text-align:center;
+   color:blue;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+h4{
+   text-align:center;
+   color:black;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+p{
+   color:gray;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+form {
+   width: 100%;
+   max-width: 22em;
+   max-height: 80em;
+   text-align: center;
+   border: solid 0.063em #c2c2c2;
+   padding-bottom: 0.625em;
+   margin: auto;
+   background: #181818;
+   color:#fff;
+   min-width: 20em;
+ }
+
+ /*Especificidad 011*/
+ input[type=submit]{
+   background-color: #636363;
+   border: none;
+   color:rgb(255, 255, 255);
+   padding: 1em 1em;
+   font-size: 1em;
+   min-width: 22%;
+   text-decoration: none;
+   margin: 0.25em 0.125em;
+   cursor: pointer;
+}
+
+/*Especificidad 011*/
+input[name="*"],input[name="+"],input[name="-"],input[name="/"]{
+   background-color: #a34949;
+   color:white;
+}
+
+/*Especificidad 011*/
+input[name="Enter"] {
+   min-width: 46%;
+   background-color: hsl(49, 88%, 40%);
+   color:black;
+}
+
+/*Especificidad 001*/
+textarea {
+   width: 85%;
+   resize: none;
+   padding: 8em 1em;
+   margin-top: 1em;
+   border: 0.063em solid silver;
+   border-radius: 0.063em;
+   color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
+}
+
+/*Especificidad 011*/
+input[type=text] {
+   width: 75%;
+   padding: 0.3em 2em;
+   font-size: 1em;
+   margin-bottom: 0.6em;
+   border: 0.063em solid silver;
+   border-radius: 0.063em;
+   text-align: left;
+   color: #333;
+   background-color:  rgb(255, 255, 255);
+}
+
+/*Especificidad 001*/
+label{
+   display: none;
+}
