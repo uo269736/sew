@@ -1,0 +1,110 @@
+/* CalculadoraCientifica.css */
+/* Version 1.0. 04/11/2020. Miguel Fernandez Alvarez. Universidad de Oviedo */
+
+/*Especificidad 001*/
+body{
+   background-color:white;
+   color:black;
+}
+
+/*Especificidad 001*/
+h1{
+   text-align:center;
+   color:black;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+h2{
+   text-align:center;
+   color:green;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+h3{
+   text-align:center;
+   color:blue;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+h4{
+   text-align:center;
+   color:black;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+p{
+   color:gray;
+   background-color:white;
+}
+
+/*Especificidad 001*/
+form {
+   width: 100%;
+   max-width: 45em;
+   text-align: center;
+   border: solid 0.063em #c2c2c2;
+   padding-bottom: 0.625em;
+   margin: auto;
+   background-color: #272626;
+   color:#fff;
+   min-width: 30em;
+ }
+
+ /*Especificidad 011*/
+ input[type=submit]{
+   background-color: #bec4be;
+   border: none;
+   color:rgb(0, 0, 0);
+   padding: 1em 1em;
+   font-size: 1em;
+   min-width: 18%;
+   text-decoration: none;
+   margin: 0.25em 0.125em;
+   cursor: pointer;
+}
+
+/*Especificidad 011*/
+input[name="*"],input[name="+"],input[name="-"],input[name="/"]{
+   background-color: #ec5353;
+   color:black;
+}
+
+/*Especificidad 011*/
+input[name="m-"],input[name="m+"],input[name="mr"],input[name="mc"]{
+   background-color: #636363;
+   color:#fff;
+   font-size: 0.953em;
+}
+/*Especificidad 011*/
+input[type=text] {
+   width: 75%;
+   padding: 1em 2em;
+   font-size: 1em;
+   margin: 0.5em 0;
+   border: 0.063em solid silver;
+   border-radius: 0.063em;
+   text-align: right;
+   color: #333;
+   background: rgb(204, 204, 204);
+}
+
+/*Especificidad 001*/
+label{
+   display: none;
+}
+
+/*Especificidad 011*/
+input[name="espacio"] {
+   width: 14%;
+   padding: 1em 1em;
+   margin: 0.25em 0;
+   border: none;
+   background-color:#272626;
+   color:#fff;
+   font-size: 0.953em;
+   cursor: initial;
+}
