@@ -1,0 +1,31 @@
+/* Ejercicio4.css */
+/* Version 1.0. 08/12/2020. Miguel Fernandez Alvarez. Universidad de Oviedo */
+
+/*Especificidad 001*/
+body{
+   background-color:rgb(255, 255, 255);
+   color:black;
+}
+
+/*Especificidad 001*/
+h1,h2,h3,h4{
+   text-align:left;
+   color:black;
+   background-color:rgb(255, 255, 255);
+}
+
+/*Especificidad 001*/
+p{
+   color:black;
+   background-color:rgb(255, 255, 255);
+}
+
+/*Especificidad 001*/
+textarea {
+   resize: none;
+}
+
+/*Especificidad 001*/
+label{
+   display: none;
+}
